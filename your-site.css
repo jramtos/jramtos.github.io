@@ -7,7 +7,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .flex-header{
@@ -23,7 +23,7 @@ body, html {
   padding-top: 4rem;
   padding-bottom: 1rem;
   flex: 0.8;
-  font-size: 35px;
+  font-size: 30px;
   color: #fff;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
@@ -41,15 +41,15 @@ body, html {
 
 .flex-links a {
   margin: 10px;
-  font-size: 20px;
+  font-size: 18px;
   color: inherit;
   font-family: sans-serif;
   text-decoration: none;
 }
 
 .img_csv {
-  width: 45px;
-  height: 40px;
+  width: 35px;
+  height: 30px;
 }
 
 .flex-main{
@@ -67,14 +67,14 @@ body, html {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-size: 18px;
+  font-size: 15px;
   text-align: left;
 }
 
 .flex-fp-left-text{
   flex: 1;
   font-family: sans-serif;
-  line-height: 30px;
+  line-height: 15px;
 
 }
 .flex-fp-left-text a {
@@ -83,7 +83,7 @@ body, html {
   color: inherit;
 }
 .flex-fp-left-text p {
-  font-size:25px;
+  font-size:18px;
   text-decoration: underline;
   color: #666;
   line-height: 10px;
@@ -98,7 +98,7 @@ body, html {
 }
 
 .flex-fp-left-img{
-  flex: 0.7;
+  flex: 0.6;
 }
 .flex-fp-left-img img{
   
@@ -130,7 +130,7 @@ flex-direction: column;
 }
 
 .flex-second-part p{
-  font-size:25px;
+  font-size:18px;
   text-decoration: underline;
   color: #666;
   font-family: sans-serif;
@@ -144,7 +144,7 @@ flex-direction: column;
   margin-top: 10px;
   font-weight: bold;
   color: lightslategray;
-  font-size:20px;
+  font-size:16px;
 
 }
 
@@ -160,7 +160,7 @@ flex-direction: column;
   padding-bottom: 3rem;
   color: #666;
   text-align: left;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .flex-second-part a{
@@ -168,7 +168,7 @@ flex-direction: column;
   color: inherit;
 }
 .flex-footer p {
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: underline;
   color: inherit;
   font-weight: bold;
