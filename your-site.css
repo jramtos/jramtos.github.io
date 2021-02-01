@@ -149,6 +149,7 @@ flex-direction: column;
 
 .flex-second-part dd {
   margin-top: 10px;
+  margin-right: 100px;
 }
 
 .flex-footer{
