@@ -1,128 +1,176 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Dont worry too much about this head stuff, you'll find out more about it in time-->
-    <title>Jesica Ramirez Toscano</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="./your-site.css" />
-  </head>
-  <body>
-    <!-- This is where you do the work -->
-    <header class='flex-header'>
+
+<head>
+  <!-- Dont worry too much about this head stuff, you'll find out more about it in time-->
+  <title>Jesica Ramirez Toscano</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+  <!-- This is where you do the work -->
+  <header class='flex-header'>
     <div class='flex-header-name'>
       Jesica Ramirez Toscano
     </div>
     <div class="flex-links">
-      <a href="resume.pdf"> CV
-        <img class="img_csv" src="cv.png" alt="resume"/>
-       </a>
+      <a href="resume.pdf">
+        <img src="cv.png" alt="resume" />
+      </a>
       <a href="https://github.com/jramtos">
-      <img src="github.svg"/></a>
+        <img src="github.svg" /></a>
       <a href="https://www.linkedin.com/in/jesica-ramirez/">
-        <img class="img_csv" src="linkedin.png"/></a>
+        <img src="linkedin.png" /></a>
     </div>
-    
-    </header>
-    <main class="flex-main">
 
-    <div class="flex-first-part">
+  </header>
+  <main class="main">
+    <div class="about-me">
+      <h3>ABOUT ME</h3>
+      <p class="cursive">
+        Mexicana.
+      </p>
+      <p>
 
-      <div class="flex-fp-left">
-        <div class="flex-fp-left-text">
-          <p>ABOUT ME</p>
-          <cursive>Mexicana.</cursive> <br> <br>
-
-            I'm currently studying data science and public policy in the <a href= "https://capp.uchicago.edu">
-            Computational Analysis and Public Policy master's program</a>
-            at the Univerity of Chicago. <br>
-            <small> (Thanks to the support of CONACYT, P.E.O. 
-              International, FUNED, Harris School of Public Policy UChicago)
-            </small>  <br> <br>
-            My current interests are the applications of data science that aim to address
-            social issues such as social inequality gaps, crime prevention, government transparency.
-            <br> <br>
-            Previously, I was an economist in the Central Bank of Mexico doing monetary policy research.
-            <a href="resume.pdf"> Here's my full CV.
+        I'm currently studying data science and public policy in the <a href="https://capp.uchicago.edu">
+          M.S. in Computational Analysis and Public Policy </a>
+        at The University of Chicago.
+        (Thanks to the support of CONACYT, UChicago, P.E.O.
+        International, FUNED). <br> <br>
+        My current interests are the applications of data science (particularly, machine learning methods
+        and human-AI interaction) that aim to address social issues such as social inequality gaps (e.g. health care
+        access, gender income gaps), crime prevention and government transparency.
+        <br>
+        Previously, I was an economist in the Central Bank of Mexico doing monetary policy research.
+        <a href="resume.pdf"> Here's my full CV.
+        </a>
+      </p>
+    </div>
+    <div class="second-part">
+      <h3>PROJECTS</h3>
+      <div class="projects">
+        <div class="section">
+          <h4>
+            <a
+              href="https://cdac.uchicago.edu/news/new-clinic-leverages-data-science-for-social-and-environmental-causes/">
+              Hohonu: Water Level Anomaly Detection and Prediction<br>
+              <small>
+                Civic Data & Technology Clinic
+              </small>
             </a>
+          </h4>
+          <a
+            href="https://cdac.uchicago.edu/news/new-clinic-leverages-data-science-for-social-and-environmental-causes/">
+            <img src="tad_series.png" class="project-img1" /></a>
+          <p>
+            With Charlie Sheils and MengChen Chung, we built a data pipeline to clean, calibrate and
+            predict water level data of coastal monitoring stations from
+            <a href="https://www.hohonu.io" style="text-decoration: underline;">Hohonu,
+            </a> an early-stage venture that measures and predicts water levels to
+            assists communities harmed by frequent flooding through low-cost, solar-powered
+            hardware.
+          </p>
         </div>
-        
-        <div class="flex-fp-left-img">
-        <img src="personal.jpg"/>
-        </div>
-      </div>
-
-      <div class='flex-fp-right'>
-        <div class="flex-fp-right-img">
-          <img src="projects_collage.png"/>
-        </div>
-      
-    </div>
-    </main>
-    <div class="flex-second-part">
-      <p>
-        PROJECTS
-      </p>
-      
-      <dl>
-
-        <dt>
+        <div class="section">
+          <h4>
+            <a href="https://github.com/ml-project-2020/covid/blob/master/ML_paper.pdf">
+              COVID-19 in Mexico: Predicting severe disease outcomes using health and socioeconomic variables.
+            </a>
+          </h4>
           <a href="https://github.com/ml-project-2020/covid/blob/master/ML_paper.pdf">
-            COVID-19 in Mexico: Predicting severe disease outcomes using health and socioeconomic variables.
-          </a>
-        </dt>
-        <dd> 
-          To join the efforts to fight COVID-19, along with Roberto Barroso, Steph Ramos and Oscar Noriega, 
-          I studied and predicted severe disease outcomes for COVID-19 patients in Mexico . 
-          The predictions were useful in developing a relative risk index between Mexican states. 
-        </dd>
+            <img src="risk_covid.png" class="project-img1" /></a>
+          <p>
+            To join the efforts to fight COVID-19, along with Roberto Barroso, Steph Ramos and Oscar Noriega,
+            I studied and predicted severe disease outcomes for COVID-19 patients in Mexico .
+            The predictions were useful in developing a relative risk index between Mexican states.
+          </p>
+        </div>
+        <div class="section">
+          <h4>
+            <a href="https://jramtos.github.io/dynamic_vis/">
+              Chronic Crime Behavior through the lens of Mental Health and Other Social Dimensions
+            </a>
+          </h4>
+          <a href="https://jramtos.github.io/dynamic_vis/">
+            <img src="heatmap_arrests.png" class="project-img2" /></a>
+          <p>
+            In an effort to further study and address mass incarceration in the U.S.,
+            we examine the rates of recidivism across several social dimensions such as mental illness prevalence,
+            emotional difficulties and family conditions (e.g. foster care, homelessness),
+            using the data from the BJS 2016 Inmates Survey.
+          </p>
+        </div>
 
-        <dt>
-          <a href="https://github.com/jramtos/hate_groups">
-            Understanding the Anti-immigration sentiment in the U.S. with hate-crime data
-          </a>
-        </dt>
-        <dd> 
-          Given the rise in anti-immigrant sentiment in recent years, 
-          I analyze the evolution of hate groups and crimes against 
-          the immigrant community in the United States. 
-          In this analysis, I was able to identify risk regions characterized 
-          by a greater number of groups or hate crimes per million population. 
-          Also, I developed a simple Shiny dashboard to represent this data.
-        </dd>
-
-        
-        <dt>
-          <a href="https://github.com/computers-for-learning-20/project">
-            Climate Change Educational Game
-          </a></dt>
-          <dd> Through Unity and #C, Kelsey Anderson and I built an Educational video game 
-            about Climate Change for 10 to 12 year olds. The goal is to provide the children
-            with an understanding of how their behaviors in daily life relate to the global environment. 
-          </dd>
-
-        <dt>
+        <div class='section'>
+          <h4>
+            <a href="https://github.com/jramtos/mexcrimes">
+              Mapping Crimes at a Certain Day and hour with Mexico City Crime Data (Using DJANGO and SQLITE)
+            </a>
+          </h4>
           <a href="https://github.com/jramtos/mexcrimes">
-          Mapping Crimes at a Certain Day and hour with Mexico City Crime Data (Using DJANGO and SQLITE)
-          </a>
-        </dt>
-        <dd> Motivated by the growing crime incidence in Mexico City (CDMX),
-            this web-app aims to provide the user information on the number of crimes that happened at an
-            specified place, day of the week, and hour, with the purpose of the user potentially 
+            <img src="mexcrimes.png" class="project-img" /></a>
+          <p>
+            Motivated by the growing crime incidence in Mexico City (CDMX),
+            this web-app aims to provide the user information on the number of crimes that happened at a
+            specified place, day of the week, and hour, with the purpose of the user potentially
             taking certain precautions when going to a specified area given that time and day of the week.
-        </dd>
-        
-      </dl>
-      
+          </p>
+        </div>
+
+        <div class='section'>
+          <h4>
+            <a href="https://github.com/computers-for-learning-20/project">
+              Climate Change Educational Game
+            </a>
+          </h4>
+          <a href="https://github.com/computers-for-learning-20/project">
+            <img src="videogame.png" class="project-img" /></a>
+          <p> Through Unity and #C, Kelsey Anderson and I built an Educational video game about Climate Change for 10 to
+            12-year-olds. The goal is to provide the children with an understanding of how their behaviors in daily life
+            relate to the global environment.
+          </p>
+        </div>
+
+        <div class="section">
+          <h4>
+            <a href="https://github.com/jramtos/hate_groups">
+              Understanding the Anti-immigration sentiment in the U.S. with hate-crime data
+            </a>
+          </h4>
+          <a href="https://github.com/jramtos/hate_groups">
+            <img src="hatecrimes.png" class="project-img" /></a>
+          <p>
+            Given the rise in anti-immigrant sentiment in recent years,
+            I analyze the evolution of hate groups and crimes against
+            the immigrant community in the United States.
+            In this analysis, I was able to identify risk regions characterized
+            by a greater number of groups or hate crimes per million population.
+            Also, I developed a simple Shiny dashboard to represent this data.
+
+          </p>
+        </div>
+
+      </div>
     </div>
-    <footer id='contact' class="flex-footer">
-      <p>
+
+  </main>
+
+  <footer id='contact' class="flex-footer">
+    <p>
       Contact
-      </p>
-      email: jramireztoscano@uchicago.edu
-    </footer>
-  </body>
+    </p>
+    <dt>
+    <dd>
+      jramireztoscano@uchicago.edu
+    </dd>
+    <br>
+    <dd>
+      jesica.ramtoscano@gmail.com
+    </dd>
+    </dt>
+  </footer>
+</body>
+
 </html>
